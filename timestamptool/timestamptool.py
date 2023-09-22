@@ -12,6 +12,6 @@ def get_int_timestamp() -> str:
     return stamp
 
 
-def get_timestamp() -> str:
-    stamp = f"{time.time():.22f}"
+def get_timestamp(decimals=22) -> str:
+    stamp = f"{time.time():.{decimals}f}"
     return stamp
