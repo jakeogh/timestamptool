@@ -6,8 +6,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "timestamptool"
-version = "0.0.1760866556"
-description = "generate full length timestamps"
+version = "0.0.1760905830"
+description = "Generate seconds timestamps"
 authors = [
     { name = "Justin Keogh", email = "github.com@v6y.net" },
 ]
