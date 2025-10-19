@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "timestamptool"
-version = "0.0.1760905830"
+version = "0.0.1760910274"
 description = "Generate seconds timestamps"
 authors = [
     { name = "Justin Keogh", email = "github.com@v6y.net" },
@@ -17,10 +17,8 @@ dependencies = [
     "globalverbose @ git+https://github.com/jakeogh/globalverbose",
     "mptool @ git+https://github.com/jakeogh/mptool",
 ]
+license = "ISC"
 requires-python = ">=3.11"
-
-[project.license]
-text = "ISC"
 
 [project.urls]
 Homepage = "https://github.com/jakeogh/timestamptool"
