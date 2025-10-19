@@ -1,0 +1,43 @@
+[build-system]
+requires = [
+    "setuptools>=61.0",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "timestamptool"
+version = "0.0.1760866556"
+description = "generate full length timestamps"
+authors = [
+    { name = "Justin Keogh", email = "github.com@v6y.net" },
+]
+dependencies = [
+    "asserttool @ git+https://github.com/jakeogh/asserttool",
+    "clicktool @ git+https://github.com/jakeogh/clicktool",
+    "globalverbose @ git+https://github.com/jakeogh/globalverbose",
+    "mptool @ git+https://github.com/jakeogh/mptool",
+]
+requires-python = ">=3.11"
+
+[project.license]
+text = "ISC"
+
+[project.urls]
+Homepage = "https://github.com/jakeogh/timestamptool"
+
+[project.scripts]
+timestamptool = "timestamptool.cli:cli"
+
+[tool.setuptools]
+include-package-data = true
+zip-safe = false
+
+[tool.setuptools.packages.find]
+exclude = [
+    "tests",
+]
+
+[tool.setuptools.package-data]
+timestamptool = [
+    "py.typed",
+]
