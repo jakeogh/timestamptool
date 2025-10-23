@@ -5,7 +5,7 @@ backend-path = ["."]
 
 [project]
 name = "timestamptool"
-version = "0.0.1761032277"
+version = "1!0.0.1761251758"
 description = "Generate seconds timestamps"
 authors = [
     { name = "Justin Keogh", email = "github.com@v6y.net" },
@@ -35,6 +35,11 @@ timestamptool = [
 ]
 
 [tool.pep508-url-version-backend]
-dependencies-indexed = []
-dependencies-git = ["asserttool @ git+https://github.com/jakeogh/asserttool", "clicktool @ git+https://github.com/jakeogh/clicktool", "globalverbose @ git+https://github.com/jakeogh/globalverbose", "mptool @ git+https://github.com/jakeogh/mptool"]
+dependencies-indexed = ["asserttool>=1!0.0.1761250315", "clicktool>=0.0.1761033403", "globalverbose>=0.0.1761031290", "mptool>=0.0.1761032167"]
+dependencies-git = [
+	"asserttool @ git+https://github.com/jakeogh/asserttool", 
+	"clicktool @ git+https://github.com/jakeogh/clicktool", 
+	"globalverbose @ git+https://github.com/jakeogh/globalverbose", 
+	"mptool @ git+https://github.com/jakeogh/mptool"
+]
 index-urls = ["jakeogh.github.io", "pip-index"]
