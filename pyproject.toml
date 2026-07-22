@@ -5,7 +5,7 @@ backend-path = ["."]
 
 [project]
 name = "timestamptool"
-version = "1!0.0.1784681827"
+version = "1!0.0.1784682420"
 description = "Generate seconds timestamps"
 authors = [
     { name = "Justin Keogh", email = "github.com@v6y.net" },
